@@ -1,0 +1,27 @@
+.caixa {
+    background-color: #1D4ED8;
+    height: 9.875rem;
+    
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2.25rem;
+    margin-top: 3.75rem;
+    padding: 0 1rem;
+}
+   
+.titulo {
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.rotas:hover {
+    border-bottom: 2px solid white;
+}

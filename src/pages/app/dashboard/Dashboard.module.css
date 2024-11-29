@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.title{
+    margin: 5rem;
+}
+
+.dashboard {
+    width: 100%;
+    height: 7rem;
+    font-size: 32px;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    width:100%;
+}
+
+.aFazer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    margin: 1rem;
+    width: 20rem;
+    height: 12.5rem;
+    background-color: var(--gray-50);
+    border: 3px solid var(--amber-300);
+    border-radius: 20px;
+    
+}
+
+.headerCards {
+    margin: 0 1rem;
+}
+
+.titleafazer{
+    font-size: 16px;
+}
+
+.ticket1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 1rem;
+}
+
+.numberChamados{
+    font-weight: bold;
+}
+
+.atendendo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    margin: 1rem;
+    width: 20rem;
+    height: 12.5rem;
+    background-color: var(--gray-50);
+    border: 3px solid var(--green-600);
+    border-radius: 20px;
+    
+}
+
+.pausados {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    margin: 1rem;
+    width: 20rem;
+    height: 12.5rem;
+    background-color: var(--gray-50);
+    border: 3px solid var(--orange-500);
+    border-radius: 20px;
+    
+}
+
+.expirados {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    margin: 1rem;
+    width: 20rem;
+    height: 12.5rem;
+    background-color: var(--gray-50);
+    border: 3px solid var(--red-500);
+    border-radius: 20px;
+    
+}
+
+.requisicoes {
+    font-weight: 300;   
+}

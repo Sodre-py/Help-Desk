@@ -1,0 +1,116 @@
+
+
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 3rem;
+
+}
+
+.table{
+    width: 1135px;
+    border: 2px solid var(--slate-500);
+    border-collapse: collapse ;
+}
+
+
+thead {
+    background: var(--gray);
+
+}
+
+th, td{
+    padding: 1rem;
+   
+    text-align: center;
+}
+
+.id {
+    color: var(--blue2);
+    font-weight: bold;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.concluido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    width: 6.25rem;
+    height: 2rem;
+    background-color: var(--green-400);
+    color: var(--green-700);
+    border-radius: 5px;
+}
+
+.atendendo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    width: 6.25rem;
+    height: 2rem;
+    background-color: var(--cyan-400);
+    color: var(--sky-800);
+    border-radius: 5px;
+}
+.expirado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    width: 6.25rem;
+    height: 2rem;
+    background-color: var(--orange-500);
+    color: var(--orange-950);
+    border-radius: 5px;
+}
+
+.pendente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    width: 6.25rem;
+    height: 2rem;
+    background-color: var(--yellow-300);
+    color: var(--yellow-700);
+    border-radius: 5px;
+}
+
+.conclu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer{
+    margin: 1rem;
+    width: 6.25rem;
+    height: 2rem;
+    background-color: var(--green-400);
+    border-radius: 5px;
+}
+
+.line {
+    background: var(--gray3);
+    border: 1px solid var(--slate-400);
+}
+
+.line1{
+    border: 1px solid var(--slate-500);
+}
+

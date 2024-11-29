@@ -1,0 +1,44 @@
+:root {
+    --white--000: #FFFFFF;
+    --white--100: #E5E7EB;
+    --gray--400:  #A1A1A1;
+    --blue--100:  #8ECAE6;
+    --blue--200:  #2196f3;
+    --blue--300:  #219EBC;
+    --blue--900:  #023047;
+    --orange--500: #FFB703;
+    --orange--600: #FB8500;
+    --yellow: #ffcc00;
+    --blue:#007aff;
+    --green--400: #4ade80;
+    --green--600: #16a34a;
+    --green--800: #166534;
+    --black--words: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.app-container{
+    display: flex;
+    height: 100vh;
+    
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+      
+}

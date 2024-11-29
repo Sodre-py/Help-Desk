@@ -1,0 +1,174 @@
+.caixa {
+    background-color: #1D4ED8;
+    height: 9.875rem;
+    
+}
+
+.rotas {
+    text-decoration: none;
+    color: aliceblue;
+
+    
+}
+
+.DialogOverlay {
+	background-color: rgba(0, 0, 0, 0.312);
+	position: fixed;
+	inset: 0;
+	animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.DialogContent {
+	background-color: white;
+	border-radius: 6px;
+	box-shadow:
+		hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+		hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90vw;
+	max-width: 450px;
+	max-height: 85vh;
+	padding: 25px;
+	animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.DialogContent:focus {
+	outline: none;
+}
+
+.DialogTitle {
+	margin: 0;
+	font-weight: 500;
+	color: var(--mauve-12);
+	font-size: 17px;
+}
+
+.FormRoot {
+	width: 260px;
+}
+
+.FormField {
+	display: grid;
+	margin-bottom: 10px;
+}
+
+.FormLabel {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 35px;
+	
+}
+
+.FormMessage {
+	font-size: 13px;
+	opacity: 0.8;
+}
+
+.Input,
+.Textarea {
+    border: 2px solid rgb(0, 0, 0);
+	width: 100%;
+    height: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	font-size: 15px;
+	background-color: #f1f5f9;
+
+}
+
+
+.Input::selection,
+.Textarea::selection {
+	background-color: var(--black-a6);
+	color: rgb(153, 0, 255);
+}
+
+.Input {
+	padding: 0 10px;
+	height: 35px;
+	line-height: 1;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2.25rem;
+    margin-top: 3.75rem;
+    padding: 0 1rem;
+}
+   
+.titulo {
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.rotas:hover {
+    border-bottom: 2px solid white;
+}
+
+.tickets {
+   
+    filter: drop-shadow(0 0 0.15rem  black);
+    background-color: white;
+    height: 6.25rem;
+    border-top: 6px solid var(--yellow);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 16rem;
+    margin-top: 0.68rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+      
+}
+
+.chat {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid crimson;
+    margin-top: 0.75rem;
+    height: 4rem;
+}
+
+.dentrochat {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixastatus {
+    background-color: var(--green--400);
+    height: 2.18rem;
+    border-radius: 9px;
+    width: 5rem;
+}
+
+.andamento {
+    color: var(--green--800);
+    padding-top: 0.50rem;
+    font-size: 7px;
+    padding: 0.75rem;
+    
+}
+
+button {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 9.25rem;
+    height: 1.41375rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+}
+
+
+p {
+        font-size: 0.75rem;
+}
+
+strong {
+     font-size: 0.85rem;
+}
+

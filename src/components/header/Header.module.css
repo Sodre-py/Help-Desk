@@ -1,0 +1,281 @@
+.header {
+    width: 100%;
+    height: 6.375rem;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pesquisar {
+    margin: 2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    max-width: 220px;
+    height: 40px;
+    background-color: var(--gray2);
+    border-radius: 8px;
+
+}
+input:focus-visible {
+    outline: none;
+}
+
+.pesquisar input {
+    background-color: transparent;
+    border: transparent;
+    font-size: 1rem;
+    
+}
+
+.headerright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 3rem;
+}
+.clientName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+
+    font-size: 1.25rem;
+}
+
+.headerright img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid  var(--blue);
+
+}
+.button{
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--blue);
+    border: transparent;
+    color: var(--white);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: var(--cyan-400);
+}
+.profile  img{
+    margin: 4rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.DialogOverlay {
+	background-color: #00000075;
+	position: fixed;
+	inset: 0;
+	animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.headerModal{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+}
+
+.DialogClose{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 5px;
+}
+
+.DialogClose:hover {
+	background-color: #22d3ee56;
+}
+
+.DialogContent {
+	background-color: white;
+	border-radius: 6px;
+	box-shadow:
+		hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+		hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90vw;
+	max-width: 820px;
+	max-height: 740vh;
+	padding: 25px;
+	animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.DialogContent:focus {
+	outline: none;
+}
+.FormRoot {
+	width: 714px;
+}
+.FormField {
+	display: grid;
+	margin-bottom: 10px;
+}
+
+.Textarea {
+	resize: none;
+	padding: 10px;
+}
+
+.Button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	padding: 0 15px;
+	font-size: 15px;
+	line-height: 1;
+	font-weight: 500;
+	height: 35px;
+	width: 100%;
+	background-color: #4ade80;
+	color: #fff;
+	border-color: transparent;
+}
+
+.Button:hover {
+	background-color: #05FF00;
+}
+
+.Button:focus {
+	box-shadow: 0 0 0 2px black;
+}
+
+.form {
+    display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.FormLabel {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 35px;
+	color: rgb(0, 0, 0);
+}
+
+.FormMessage {
+	font-size: 13px;
+	color: rgb(0, 0, 0);
+	opacity: 0.8;
+}
+
+.Input,
+.Textarea_description {
+	width: 100%;
+	height: 100px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	font-size: 15px;
+	color: black;
+	background-color: var(--black-a2);
+	box-shadow: 0 0 0 1px var(--black-a6);
+
+}
+
+.Input,
+.Textarea{
+	width: 100%;
+	height: 45px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	font-size: 15px;
+	color: black;
+	background-color: var(--black-a2);
+	box-shadow: 0 0 0 1px var(--black-a6);
+}
+
+.Input:hover,
+.Textarea:hover {
+	box-shadow: 0 0 0 1px black;
+}
+
+.Input:focus,
+.Textarea:focus {
+	box-shadow: 0 0 0 2px black;
+}
+
+.Input::selection,
+.Textarea::selection {
+	background-color: var(--black);
+	color: black;
+}
+
+.Input {
+	padding: 0 10px;
+	height: 35px;
+	line-height: 1;
+}
+
+.DropdownMenuContent{
+	width: 12rem;
+	border: 2px solid black;
+	background-color: var(--white);
+	border-radius: 8px;
+}
+
+.DropdownMenuSeparator{
+	border-bottom: 2px solid black;
+}
+
+.Button_profile {
+	background-color: transparent;
+	border: none;
+	
+	
+}
+
+.Button_profile img:hover{
+	transform: scale(1.25);
+	transition: all 0.2s ease-in-out;
+}
+
+.email {
+    color: var(--slate-400);
+}
+
+li .MyProfile{
+	height: 24px;
+    width: 24px;
+}
+li {
+	display: flex;
+	gap: 4px;
+	margin: 0.5rem;
+	justify-content: flex-start;
+	cursor: pointer;
+    
+}
+
+li .icons {
+	display: flex;
+	flex-direction: row;
+	gap: 4rem;
+}
+.LogOut{
+	color: var(--red-500);
+}
